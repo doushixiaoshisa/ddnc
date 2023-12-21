@@ -896,7 +896,7 @@ js_config:
   KeyWord:
   - - jd_collect_shop_activityUrl
   Name: 收藏大师-关注商品
-  Script: jd_collect_shop.js
+  Script: jd_txzj_collect_shop.js
   TimeOut: 0
   Wait: 5
 - Container:
