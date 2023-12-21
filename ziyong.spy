@@ -379,6 +379,15 @@ js_config:
   Wait: 5
 - Container:
   - - 1
+  Env: jd_wxMcLevelAndBirthGifts_activityId
+  KeyWord:
+  - - jd_wxMcLevelAndBirthGifts_activityId
+  Name: 生日礼包/会员等级礼包（超级会员）
+  Script: jd_wxMcLevelAndBirthGifts.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
   Env: categoryUnion_activityId
   KeyWord:
   - - categoryUnion_activityId
@@ -793,6 +802,15 @@ js_config:
   Wait: 5
 - Container:
   - - 1
+  Env: jd_gzsl_shopGiftBag_activityUrl
+  KeyWord:
+  - - jd_gzsl_shopGiftBag_activityUrl
+  Name: 店铺礼包（无线营销）
+  Script: jd_gzsl_shopGiftBag.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
   Env: jd_wxUnPackingActivity_activityId
   KeyWord:
   - - jd_wxUnPackingActivity_activityId
@@ -847,6 +865,15 @@ js_config:
   Wait: 5
 - Container:
   - - 1
+  Env: jd_gzsl_contactWare_activityUrl
+  KeyWord:
+  - - jd_gzsl_contactWare_activityUrl
+  Name: 关注有礼（无线营销）
+  Script: d_gzsl_contactWare.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
   Env: jd_wxSecond_activityId
   KeyWord:
   - - jd_wxSecond_activityId
@@ -870,6 +897,15 @@ js_config:
   - - jd_wxShareActivity_activityId
   Name: 入会开卡领取礼包(通用)
   Script: jd_wxShareActivity.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_gzsl_getLottery_activityUrl
+  KeyWord:
+  - - jd_gzsl_getLottery_activityUrl
+  Name: 幸运大转盘（无线营销）
+  Script: jd_gzsl_getLottery.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -955,11 +991,38 @@ js_config:
   Wait: 5
 - Container:
   - - 1
+  Env: jd_shop_gift_activityUrl
+  KeyWord:
+  - - jd_shop_gift_activityUrl
+  Name: 店铺礼包（收藏大师）
+  Script: jd_txzj_shop_gift.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
   Env: jd_drawShopGift_argv
   KeyWord:
   - - jd_drawShopGift_argv
   Name: 店铺关注有礼
   Script: jd_daily.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_wxSignPoint_sign_lzkj_Ids
+  KeyWord:
+  - - jd_wxSignPoint_sign_lzkj_Ids
+  Name: 店铺积分签到（超级无线/超级会员）
+  Script: jd_wxSignPoint.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_shopLottery_activityUrl
+  KeyWord:
+  - - jd_shopLottery_activityUrl
+  Name: 店铺刮刮乐
+  Script: jd_shop_lottery.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -1014,6 +1077,15 @@ js_config:
   - - jd_wxShopFollowActivity_activityUrl
   Name: 关注店铺有礼（超级无线/超级会员）
   Script: jd_wxShopFollowActivity.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_sign_in_activityUrl
+  KeyWord:
+  - - jd_sign_in_activityUrl
+  Name: 签到有礼（收藏大师）
+  Script: jd_txzj_sign_in.js
   TimeOut: 0
   Wait: 5
 - Container:
@@ -1131,6 +1203,15 @@ js_config:
   - - jd_lzkj_loreal_sign_url
   Name: 签到抽奖（lzkj_loreal）
   Script: jd_lzkj_loreal_sign.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_share_new_activityUrl
+  KeyWord:
+  - - jd_share_new_activityUrl
+  Name: 分享有礼（收藏大师）
+  Script: jd_txzj_share_new.js
   TimeOut: 0
   Wait: 5
 - Container:
