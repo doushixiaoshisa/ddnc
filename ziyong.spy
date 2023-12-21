@@ -1,0 +1,388 @@
+js_config:
+- Container:
+  - - 1
+  Env: jd_zdjr_activityId
+  KeyWord:
+  - - jd_zdjr_activityId
+  Name: 【KR】LZ组队瓜分京豆-加密
+  Script: jd_zdjr.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_wxgame_activityId
+  KeyWord:
+  - - jd_wxgame_activityId
+  Name: 【KR】LZ店铺游戏
+  Script: jd_wxSecond.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_wxUnPackingActivity_activityId
+  KeyWord:
+  - - jd_wxUnPackingActivity_activityId
+  Name: 【KR】LZ让福袋飞通用活动
+  Script: jd_wxUnPackingActivity.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_wxShopGift_activityUrl
+  KeyWord:
+  - - jd_wxShopGift_activityUrl
+  Name: 【KR】店铺礼包特效
+  Script: jd_wxShopGift.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_wxShopGift_activityUrl
+  KeyWord:
+  - - jd_wxShopGift_activityUrl
+  Name: 【KR】店铺礼包特效
+  Script: jd_wxShopGift.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_wxShopFollowActivity_activityUrl
+  KeyWord:
+  - - jd_wxShopFollowActivity_activityUrl
+  Name: 【KR】关注店铺有礼
+  Script: jd_wxShopFollowActivity.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_wxShareActivity_activityId
+  KeyWord:
+  - - jd_wxShareActivity_activityId
+  Name: 【KR】分享有礼-加密
+  Script: jd_wxShareActivity.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_wxSecond_activityId
+  KeyWord:
+  - - jd_wxSecond_activityId
+  Name: 【KR】读秒拼手速通用活动
+  Script: jd_wxSecond.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_wxMcLevelAndBirthGifts_activityId
+  KeyWord:
+  - - jd_wxMcLevelAndBirthGifts_activityId
+  Name: 【KR】CJ店铺生日和等级礼包-加密
+  Script: jd_wxMcLevelAndBirthGifts.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_wxKnowledgeActivity_activityUrl
+  KeyWord:
+  - - jd_wxKnowledgeActivity_activityUrl
+  Name: 【KR】知识超人
+  Script: jd_wxKnowledgeActivity.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_wxFansInterActionActivity_activityId
+  KeyWord:
+  - - jd_wxFansInterActionActivity_activityId
+  Name: 【KR】粉丝互动通用活动
+  Script: jd_wxFansInterActionActivity.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_wxCollectionActivity_activityUrl
+  KeyWord:
+  - - jd_wxCollectionActivity_activityUrl
+  Name: 【KR】加购有礼通用-加密
+  Script: jd_wxCollectionActivity.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_wxCollectCard_activityId
+  KeyWord:
+  - - jd_wxCollectCard_activityId
+  Name: 【KR】集卡抽奖通用活动
+  Script: jd_wxCollectCard.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_wxCartKoi_activityId
+  KeyWord:
+  - - jd_wxCartKoi_activityId
+  Name: 【KR】购物车锦鲤通用活动
+  Script: jd_wxCartKoi.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_wxBuildActivity_activityId
+  KeyWord:
+  - - jd_wxBuildActivity_activityId
+  Name: 【KR】LZ盖楼有礼
+  Script: jd_wxBuildActivity.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_wdzfd_activityId
+  KeyWord:
+  - - jd_wdzfd_activityId
+  Name: 【KR】微定制瓜分福袋-加密
+  Script: jd_wdzfd.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_wdz_activityId
+  KeyWord:
+  - - jd_wdz_activityId
+  Name: 【KR】微定制瓜分京豆-加密
+  Script: jd_wdz.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_lottery_activityUrl
+  KeyWord:
+  - - jd_lottery_activityUrl
+  Name: 【KR】收藏大师-幸运抽奖
+  Script: jd_txzj_lottery.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_collect_shop_activityUrl
+  KeyWord:
+  - - jd_collect_shop_activityUrl
+  Name: 【KR】收藏大师-关注商品
+  Script: jd_collect_shop.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_collect_item_activityUrl
+  KeyWord:
+  - - jd_collect_item_activityUrl
+  Name: 【KR】收藏大师-关注有礼
+  Script: jd_txzj_collect_item.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_cart_item_activityUrl
+  KeyWord:
+  - - jd_cart_item_activityUrl
+  Name: 【KR】收藏大师-加购有礼
+  Script: jd_txzj_cart_item.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: LZKJ_SEVENDAY
+  KeyWord:
+  - - LZKJ_SEVENDAY
+  Name: 【KR】店铺签到
+  Script: jd_sevenDay.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: LZKJ_SIGN
+  KeyWord:
+  - - LZKJ_SIGN
+  Name: 【KR】店铺签到
+  Script: jd_sevenDay.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: CJHY_SEVENDAY
+  KeyWord:
+  - - CJHY_SEVENDAY
+  Name: 【KR】店铺签到
+  Script: jd_sevenDay.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: CJHY_SIGN
+  KeyWord:
+  - - CJHY_SIGN
+  Name: 【KR】店铺签到
+  Script: jd_sevenDay.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: yhyauthorCode
+  KeyWord:
+  - - yhyauthorCode
+  Name: 【KR】店铺签到
+  Script: jd_prodev.py
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: DPLHTY
+  KeyWord:
+  - - DPLHTY
+  Name: 【KR】大牌联合通用开卡
+  Script: jd_opencardDPLHTY.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_mhurlList
+  KeyWord:
+  - - jd_mhurlList
+  Name: 【KR】盲盒任务抽京豆
+  Script: jd_mhtask.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: DYJSHAREID
+  KeyWord:
+  - - DYJSHAREID
+  Name: 【KR】特价版大赢家
+  Script: jd_makemoneyshop.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: LUCK_DRAW_URL
+  KeyWord:
+  - - LUCK_DRAW_URL
+  Name: 【KR】店铺抽奖通用活动-加密
+  Script: jd_luck_draw.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: JD_Lottery
+  KeyWord:
+  - - JD_Lottery
+  Name: 【KR】joy抽奖机通用
+  Script: jd_lottery.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: JD_JOYOPEN
+  KeyWord:
+  - - JD_JOYOPEN
+  Name: 【KR】JOY通用开卡活动
+  Script: jd_joyopen.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: M_FOLLOW_SHOP_ARGV
+  KeyWord:
+  - - M_FOLLOW_SHOP_ARGV
+  Name: 【KR】关注有礼-加密
+  Script: jd_follow.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_drawCenter_activityId
+  KeyWord:
+  - - jd_drawCenter_activityId
+  Name: 【KR】LZ刮刮乐抽奖通用活动-加密
+  Script: jd_wxShareActivity.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: DPQDTK
+  KeyWord:
+  - - DPQDTK
+  Name: 【KR】常规店铺签到
+  Script: jd_dpqd.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_daily_activityId
+  KeyWord:
+  - - jd_daily_activityId
+  Name: 【KR】LZ每日抢好礼通用活动
+  Script: jd_daily.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: computer_activityIdList
+  KeyWord:
+  - - computer_activityIdList
+  Name: 【KR】电脑配件通用ID任务
+  Script: jd_computer.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_cjhy_activityId
+  KeyWord:
+  - - jd_cjhy_activityId
+  Name: 【KR】CJ组队瓜分京豆
+  Script: jd_cjzdgf.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_cjdaily_activityId
+  KeyWord:
+  - - jd_cjdaily_activityId
+  Name: 【KR】CJ每日抢好礼通用活动
+  Script: jd_cjdaily.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_categoryUnion_activityId
+  KeyWord:
+  - - jd_categoryUnion_activityId
+  Name: 【KR】品类联合抽奖
+  Script: jd_categoryUnion_draw.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: jd_categoryUnion
+  KeyWord:
+  - - jd_categoryUnion
+  Name: 【KR】品类联合任务
+  Script: jd_categoryUnion.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: VENDER_ID
+  KeyWord:
+  - - VENDER_ID
+  Name: 【KR】入会开卡领取礼包
+  Script: jd_OpenCard_Force.js
+  TimeOut: 0
+  Wait: 5
+- Container:
+  - - 1
+  Env: VENDER_ID
+  KeyWord:
+  - - VENDER_ID
+  Name: 【KR】入会开卡领取礼包
+  Script: jd_OpenCard_Force.js
+  TimeOut: 0
+  Wait: 5
