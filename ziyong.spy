@@ -460,15 +460,6 @@ js_config:
   Wait: 5
 - Container:
   - - 1
-  Env: LUCK_DRAW_URL
-  KeyWord:
-  - - LUCK_DRAW_URL
-  Name: 店铺抽奖（超级无线/超级会员）
-  Script: jd_luck_draw.js
-  TimeOut: 0
-  Wait: 5
-- Container:
-  - - 1
   Env: jd_fxyl_activityId
   KeyWord:
   - - jd_fxyl_activityId
