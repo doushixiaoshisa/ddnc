@@ -282,6 +282,7 @@ js_config:
   - - 1
   Env: jd_lzkj_loreal_dailyGrabs_url
   KeyWord:
+  - - jd_loreal_lzkj_dailyGrabs_id
   - - jd_lzkj_loreal_dailyGrabs_url
   Name: 每日抢好礼（超级无线）
   Script: jd_lzkj_loreal_dailyGrabs.js
@@ -724,7 +725,7 @@ js_config:
   Env: jd_lzkj_loreal_daySign_url
   KeyWord:
   - - jd_lzkj_loreal_daySign_url
-  Name: 店铺礼包特效
+  Name: 签到有礼（超级无线）
   Script: jd_lzkj_loreal_daySign.js
   TimeOut: 0
   Wait: 5
@@ -822,6 +823,7 @@ js_config:
   - - 1
   Env: jd_daily_activityUrl
   KeyWord:
+  - - jd_wx_daily_id
   - - jd_daily_activityUrl
   Name: 每日抢好礼（超级无线/超级会员）
   Script: jd_daily.js
